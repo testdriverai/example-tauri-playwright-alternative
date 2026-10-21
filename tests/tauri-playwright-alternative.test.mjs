@@ -49,6 +49,8 @@ describe("Yaak (Tauri)", () => {
     await testdriver.find('"Automatic" dropdown on the right of the Appearance row in the Theme settings').click();
     await testdriver.find('"Dark" option at the bottom of the Appearance dropdown list').click();
 
+    // The dropdown updates before the window repaints, so wait for a dark-only detail first.
+    await testdriver.find('moon icon next to "Yaak (preview)" on a dark navy background in the Preview section', { timeout: 30000 });
     const darkMode = await testdriver.assert(
       'the Appearance dropdown in the Theme settings shows "Dark" and the window, title bar and settings dialog all use a dark background',
     );

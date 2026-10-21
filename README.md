@@ -1,6 +1,6 @@
 # Can You Use Playwright with Tauri? What Works Instead
 
-[![TestDriver running this test (sped up)](media/speedrun.gif)](https://console.testdriver.ai/replay/6ad9179cc2408c0c24595c4c?share=STCx7SJt91JPzP1lAhzw)
+[![TestDriver running this test (sped up)](media/speedrun.gif)](https://console.testdriver.ai/replay/6ad91d3ac2408c0c24595c82?share=iVjGeIlcd99zfpKNqUhN1Q)
 
 *Sped up: idle time removed. Click to watch the full replay with step-by-step logs.*
 
