@@ -1,0 +1,13 @@
+{
+  "name": "example-tauri-playwright-alternative",
+  "private": true,
+  "type": "module",
+  "description": "Can You Use Playwright with Tauri? What Works Instead",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "testdriverai": "latest",
+    "vitest": "^4.0.18"
+  }
+}
